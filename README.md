@@ -10,6 +10,12 @@
 - Import Cost
 - Prettier - Code formatter
 
+## installation
+
+- git clone https://github.com/kdg1986/yb-study-project.git 
+- cd yb-study-project 
+- code .
+
 ## Available Scripts
 
 ### `yarn start`
