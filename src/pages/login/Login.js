@@ -1,8 +1,20 @@
 import axios from "axios";
+import { useEffect } from "react";
+import { useState } from "react";
 
 export default function Login() {
-  axios.get("/api/user/info/kim").then((res) => {
-    console.log(res.data);
-  });
-  return <>Login PAGE</>;
+  const [obj, setObj] = useState({});
+  useEffect(() => {
+    (async () => {
+      const res = await axios.get("/api/user/info/kim");
+      setObj(res.data);
+    })();
+  }, []);
+
+  return (
+    <>
+      Hello <br></br>
+      {JSON.stringify(obj)}
+    </>
+  );
 }
