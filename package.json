@@ -38,6 +38,13 @@
     ]
   },
   "devDependencies": {
+    "@progress/kendo-drawing": "^1.17.1",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-react-form": "^5.7.0",
+    "@progress/kendo-react-inputs": "^5.7.0",
+    "@progress/kendo-react-intl": "^5.7.0",
+    "@progress/kendo-react-labels": "^5.7.0",
+    "@progress/kendo-theme-default": "^5.8.1",
     "craco-alias": "^3.0.1"
   },
   "proxy": "http://localhost:4000/"
